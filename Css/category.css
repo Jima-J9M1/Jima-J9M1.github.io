@@ -1,0 +1,22 @@
+.img-container{
+    display: flex;
+    background-color: dodgerblue;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img{
+    min-width: 15%;
+    border: 1px solid black;
+}
+img{
+    max-width: 300px;
+}
+@media(max-width:780px){
+    .img{
+        width: 45%;
+    }
+    img{
+        max-width: 450px;
+    }
+}
